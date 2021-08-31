@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="seata_order@localhost" uuid="e9d40069-d98f-4d0b-bd60-9c373e933b1a">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/seata_order?serverTimezone=UTC</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="seata_storage@localhost" uuid="101f830c-c609-4d3f-8a1e-72278dd2cacc">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/seata_storage?serverTimezone=UTC</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="seata_account@localhost" uuid="8a56a366-6213-4d58-842a-d2032a64351b">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/seata_account?serverTimezone=UTC</jdbc-url>
+    </data-source>
+  </component>
+</project>
